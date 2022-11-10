@@ -67,7 +67,7 @@ async def restart(client, m: Message):
 async def help(client, m: Message):
     await m.delete()
     HELP = f"""
-<b>اهلا بك صديقي  🥇 {m.from_user.mention}!
+<b> هلاا عمري 🦎 {m.from_user.mention}!
 
 🛠 هذه هي قائمـة اوامر سـورس ايــثــون
 - أوامر المستخدمين: 
@@ -88,5 +88,5 @@ async def help(client, m: Message):
 • !تخطي - لتخطي المقطع الصوتي أو الفيديو الحالي وتشغيل ما بعده
 
 • !انهاء - لإنهاء التشغيل</b>
-"By: @EITHON1"""
+"By: @Xl441"""
     await m.reply(HELP)
